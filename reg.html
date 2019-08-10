@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Reg Form</title>
+<link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
+<style>
+#grad1
+{
+  	height: 800px;
+  	background-color: white; 
+ 	background-image: linear-gradient(#FFF380, #2BC0E4, #0000A0); 
+}
+body 
+{
+    font-family: 'Merienda', cursive;
+	font-size: 22px;
+	color: darkblue;
+}
+.button
+{
+	font-family: 'Merienda', cursive;
+	text-align: "center";
+	color: darkblue;
+	background-image: linear-gradient(to right, #2BC0E4 30%, #EAECC6 50%, #0000A0 120%);
+}
+.cselect
+{
+	font-family: 'Merienda', cursive;
+	text-align: "center";
+	font-size: 15px;
+	color: darkblue;
+}
+input
+{
+
+	font-family: 'Merienda', cursive;
+	text-align: "center";
+	font-size: 15px;
+	color: darkblue;
+}
+</style>
+</head>
+<body>
+<div id="grad1">
+<h1 align="center">INTERNATIONAL MUSIC CONFERENCE</h1>
+<table align="center" width="400" border="1">
+<tr>
+<td>Enter your first name</td>
+<td><input type="text" name="first name"></td>
+</tr>
+<tr>
+<td>Enter your last name</td>
+<td><input type="text" name="last name"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+Male
+<input type="radio" name="gender" value="male">
+Female
+<input type="radio" name="gender" value="female">
+</td>
+</tr>
+<tr>
+ 	<td>Country</td>
+<td>
+<select class="cselect">
+<option value="USA">USA</option>
+<option value="India">India</option>
+<option value="UK">UK</option>
+<option value="Canada">Canada</option>
+<option value="SriLanka">Sri Lanka</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Enter your DOB</td>
+<td><input type="date" name="dob"></td>
+</tr>
+<tr>
+<td>Languages known</td>
+<td>
+<input type="checkbox" name="Languages" value="English">English<br>
+<input type="checkbox" name="Languages" value="French">French<br>
+<input type="checkbox" name="Languages" value="German">German<br>
+<input type="checkbox" name="Languages" value="Spanish">Spanish<br>
+</td>
+</tr>
+<tr>
+<td>Enter your email address</td>
+<td><input type="email" name="email"></td>
+</tr>
+<th colspan="2"><button class="button" type="button" onclick="alert"('Welcome to the conference!!s')>Submit</button></th>
+`	</div>
+</body>
+</html>
