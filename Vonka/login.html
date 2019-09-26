@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<style>
+
+		.bg
+		{
+		    font-family: 'Dancing Script', cursive;
+			color: black;
+			font-weight: bold;
+			font-size: 80px;
+		}
+		.button
+		{
+			font-family: 'Dancing Script', cursive;
+			font-size: 20px;
+			font-weight: bold;
+			text-align: "center";
+			color: black;
+			background-image: linear-gradient(to right, #FFD871,#E56717,pink);
+		}
+		.cselect
+		{
+			font-family: 'Dancing Script', cursive;
+			font-weight: bold;
+			text-align: "center";
+			font-size: 20px;
+			color: black;
+			background-image: linear-gradient(to right,#FFD871,#E56717,#F778A1);
+		}
+		input
+		{
+			font-family: 'Dancing Script', cursive;
+			font-weight: bold;
+			text-align: "center";
+			font-size: 20px;
+			color: black;
+			background-image: linear-gradient(to right,#FFD871,#E56717,#F778A1);
+		}
+		table
+		{
+			font-weight: bold;
+			font-size: 23px;
+			border: "0";
+		}
+		img
+		{
+			opacity: 0.5;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="bg">
+		&nbsp;
+		<img src="https://allhdwallpapers.com/wp-content/uploads/2015/07/Sunrise-7.jpg" width="650px" height="350px">
+		<img src="https://c4.wallpaperflare.com/wallpaper/981/537/277/ski-gulmarg-kashmir-india-wallpaper-thumb.jpg" width="650px" height="350px">
+		<br>&nbsp;
+		<img src="http://eskipaper.com/images/cherry-blossoms-spring-1.jpg" width="650px" height="350px">
+		<img src="https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-HD-Fall-Wallpapers.jpg" width="650px" height="350px">
+		<form action="">
+			<table align="center" width="430" style="position: absolute; top: 200px; left: 530px;">
+			<tr>
+			<td>NAME</td>
+			<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+			<td>PASSWORD</td>
+			<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+			<td>RETYPE PASSWORD</td>
+			<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+			<td>TYPE OF PLANT</td>
+			<td>
+			<input type="radio" name="gender" value="male">
+			FLOWERING<br>
+			<input type="radio" name="gender" value="female">
+			NON-FLOWERING
+			</td>
+			</tr>
+			<tr>
+			<td>CHOOSE CATEGORY</td>
+			<td>
+			<select class="cselect">
+			<option value="Select any" selected = "selected">Select any...</option>
+			<option value="Air Purifier">Air Purifier</option>
+			<option value="Low Maintenance">Low Maintenance</option>
+			<option value="Good Luck">Good Luck</option>
+			<option value="Medicinal">Medicinal</option>
+			<option value="Fruit">Fruit</option>
+			<option value="Flower">Flower</option>
+			<option value="Religious">Religious</option>
+			</select>
+			</td>
+			</tr>
+			<tr>
+			<td>COUNTRY</td>
+			<td>
+			<input type="checkbox" name="country" value="India">India<br>
+			<input type="checkbox" name="country" value="Other">Other<br>
+			</td>
+			</tr>
+			<td>STATE</td>
+			<td><input type="text" name="state"></td>
+			</tr>
+			<td>CITY</td>
+			<td><input type="text" name="city"></td>
+			</tr>
+			<tr>
+			<td>ADDRESS</td>
+			<td><input type="text" name="address"></td>
+			</tr>
+			<th colspan="3" rowspan = "2">
+			<button class="button" onClick="parent.location='thankyou.html'" type="button" >Submit</button>
+			<button class="button" type="button" >reset</button>
+			</th>
+			</table>
+		</form>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+</body>
+</html>
